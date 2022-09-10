@@ -10,6 +10,7 @@ import NewsletterForm from '@/components/NewsletterForm'
 const MAX_DISPLAY = 5
 
 export async function getStaticProps() {
+  //TESTING GIT
   const posts = await getAllFilesFrontMatter('blog')
   return { props: { posts } }
 }
